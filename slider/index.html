@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="section-color">
+            <div class="section-info">
+                rgb(
+                    <span id="red-value">172</span>, 
+                    <span id="green-value">172</span>,
+                    <span id="blue-value">172</span>
+                )
+            </div>
+        </div>
+        <div class="section-action">
+            <div class="action-box">
+                <div>R</div>
+                <input type="range" onchange="handleSlider('red-slider', '--red-color', 'red-value')" min="0" max="255" id="red-slider">
+            </div>
+            <div class="action-box">
+                <div>G</div>
+                <input type="range" onchange="handleSlider('green-slider', '--green-color', 'green-value')" min="0" max="255" id="green-slider">
+            </div>
+            <div class="action-box">
+                <div>B</div>
+                <input type="range" onchange="handleSlider('blue-slider', '--blue-color', 'blue-value')" min="0" max="255" id="blue-slider">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
