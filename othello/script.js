@@ -23,6 +23,7 @@ function Othello(userColor) {
     this.whiteScore = 0;
     this.blackScore = 0;
     this.state = new Array(dim);
+
     this.badMoves = [
         {
             i: 1,

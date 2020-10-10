@@ -1,0 +1,82 @@
+[
+  {
+    "row": "1",
+    "col": "1",
+    "color": "purple"
+  },
+  {
+    "row": "1",
+    "col": "2",
+    "color": "mediumvioletred"
+  },
+  {
+    "row": "1",
+    "col": "3",
+    "color": "mediumvioletred"
+  },
+  {
+    "row": "1",
+    "col": "4",
+    "color": "orange"
+  },
+  {
+    "row": "2",
+    "col": "1",
+    "color": "mediumvioletred"
+  },
+  {
+    "row": "2",
+    "col": "2",
+    "color": "salmon"
+  },
+  {
+    "row": "2",
+    "col": "3",
+    "color": "salmon"
+  },
+  {
+    "row": "2",
+    "col": "4",
+    "color": "mediumvioletred"
+  },
+  {
+    "row": "3",
+    "col": "1",
+    "color": "salmon"
+  },
+  {
+    "row": "3",
+    "col": "2",
+    "color": "salmon"
+  },
+  {
+    "row": "3",
+    "col": "3",
+    "color": "orange"
+  },
+  {
+    "row": "3",
+    "col": "4",
+    "color": "purple"
+  },
+  {
+    "row": "4",
+    "col": "1",
+    "color": "salmon"
+  },
+  {
+    "row": "4",
+    "col": "2",
+    "color": "mediumvioletred"
+  },
+  {
+    "row": "4",
+    "col": "3",
+    "color": "salmon"
+  },
+  {
+    "row": "4",
+    "col": "4",
+    "color": "orange"
+  }
+]
