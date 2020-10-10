@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Adidas Shoes",
+        "price": 300000
+    },
+    {
+        "id": 2,
+        "name": "Samsung Phone",
+        "price": 5000000
+    },
+    {
+        "id": 5,
+        "name": "ROG Laptop",
+        "price": 300000
+    }
+]
