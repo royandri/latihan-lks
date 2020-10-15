@@ -1,0 +1,138 @@
+.lks-box-game {
+    height: 600px;
+    width: 960px; 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -1920px 0; }
+}
+
+.lks-game-canvas {
+    background-image: url('../../assets/img/background.png');
+    width: 100%;
+    height: 380px;
+    -webkit-animation: slide 13s linear infinite;
+}
+
+
+
+.lks-left-side {
+    height: 220px;
+    width: 100%;
+    background-color: #edad42;
+    position: absolute;
+}
+
+.lks-jump-control {
+    margin-top: -35px !important;
+    margin-left: -60px !important;
+    cursor: pointer;
+    padding-top: 21px;
+    border-radius: 10px;
+    color: #edad42;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 13pt;
+}
+
+.lks-jump-control:active {
+    background-color: black !important;
+}
+
+.lks-jump-control:hover {
+    background-color: rgb(44, 42, 42);
+}
+
+.box-lks-left-side {
+    padding: 50px 30px 20px 20px;
+}
+
+.box-lks-left-side .lks-game-score {
+    width: 100%;
+    text-align: right;  
+    font-size: 20pt;
+    font-weight: bold;
+    color: black;
+}
+
+.lks-contol-start {
+    width: 960px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.lks-contol-start .lks-start-button {
+    letter-spacing: 10px;
+    font-size: 50pt;
+    cursor: pointer;
+}
+
+.lks-contol-start .lks-game-over-control{
+    margin-top: -20px;
+}
+
+.lks-game-over-control p {
+    letter-spacing: 10px;
+    font-size: 50pt;
+}
+
+.lks-game-over-control span {
+    display: block;
+    margin-top: 0px !important;
+    font-size: 24pt;
+    cursor: pointer;
+}
+
+
+.lks-box-game-canvas {
+    padding: 20px 20px 20px 20px;
+    height: 230px;
+    position: relative;
+}
+
+.lks-ball-object {
+    margin-left: 100px;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.lks-ball-object img {
+    height: 50px;
+    width: 50px;
+}
+
+.lks-halangan-object {
+    float: left;
+    display: none;
+    width: 100px;
+    height: 150px;
+    position: absolute;
+    bottom: -73px;
+}
+
+.lks-halangan-object img {
+    width: 100px;
+    height: 150px;
+}
+
+#lks-box-high-score {
+    display: none;
+}

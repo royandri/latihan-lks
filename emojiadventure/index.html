@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emoji Adventure</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="lks-box-game">
+        <div class="lks-game-canvas" id="lks-game-canvas">
+            <div class="lks-box-game-canvas" id="lks-box-game-canvas">
+                <div id="lks-ball-object" class="lks-ball-object">
+                    <img id="lks-img-ball-object" src="./assets/img/bola.png" alt="">
+                </div>
+                <div id="lks-halangan-object"  style="margin-left: 900px;" class="lks-halangan-object">
+                    <img id="lks-img-halangan" src="./assets/img/halangan-3.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="lks-game-controll">
+            <div class="lks-left-side">
+                <div id="lks-jump-control" class="lks-jump-control">
+                    JUMP
+                </div>
+                <div id="lks-start-control" class="lks-contol-start">
+                    <p class="lks-start-button" id="lks-start-button">START</p>
+                    <div id="lks-game-over-control" class="lks-game-over-control">
+                        <p>GAME OVER <br>
+                        <span id="lks-restart-button">RESTART</span>
+                    </div>
+                </div>
+                <div class="box-lks-left-side">
+                    <div class="lks-game-score" id="lks-box-high-score">
+                        High Score : <span id="lks-high-score"></span>
+                    </div>
+                    <div class="lks-game-score" id="lks-game-score">
+                        Score : <span id="lks-score"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="lks-right-side">
+            </div>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
